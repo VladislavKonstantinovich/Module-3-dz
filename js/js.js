@@ -20,6 +20,9 @@ let info = {
 }
 
 for (let value of Object.values(info.age)) {
+
+    // можно было записать  console.log(value);  , но я захотел, чтобы было написано что-то кроме цифр
+
     switch (value) {
         case 29:
             console.log('У 2033 буде ' + value + ' років');
